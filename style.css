@@ -1,0 +1,47 @@
+body {
+    background-color: pink;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.gonvo {
+    color: whitesmoke;
+    text-align: center;
+    background-color: hotpink;
+    cursor: progress;
+
+}
+
+button {
+    color: red;
+}
+
+a {
+    color: red;
+    text-align: center;
+}
+
+.butt {
+    cursor: pointer;
+    text-align: center;
+    cursor: pointer;
+}
+
+.butt:hover {
+    background-color: chartreuse;
+    width: 40px;
+    height: 20px;
+    scale: calc(2);
+    transform: rotate(5);
+}
+
+#runaway-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: px 10px;
+    font-size: 15px;
+    cursor: default;
+    transition: all 0.3s ease;
+}
