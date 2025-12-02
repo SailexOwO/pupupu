@@ -1,16 +1,33 @@
 body {
-    background-color: pink;
-    height: 100vh;
     margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: pink;
     overflow: hidden;
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: plum; 
 }
 
 .gonvo {
-    color: whitesmoke;
+    color: rgb(255, 186, 248);
     text-align: center;
-    background-color: hotpink;
     cursor: progress;
+    position: relative;
+    z-index: 10;
+    font-family: Arial, sans-serif;
 
+}
+
+.gonvo h1 {
+    display: inline-block;
+    background-color: hotpink;
+    border-radius: 50%;
+    -webkit-text-stroke: 2px rgb(121, 64, 137);
 }
 
 button {
@@ -25,7 +42,8 @@ a {
 .butt {
     cursor: pointer;
     text-align: center;
-    cursor: pointer;
+    position: relative;
+    z-index: 10;
 }
 
 .butt:hover {
